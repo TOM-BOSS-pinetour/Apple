@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+}
+/* fonts */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.header-1 {
+  display: flex;
+  flex-direction: column;
+  height: 48px;
+  background-color: rgba(245, 245, 247, 0.8);
+}
+.apple-icon {
+  height: 48px;
+  width: 18px;
+  padding-left: 16px;
+}
+.search-shop-icon {
+  height: 48px;
+  width: 17px;
+  padding-left: 15.5px;
+  padding-right: 15.5px;
+}
+.menu-icon {
+  width: 18px;
+  height: 48px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.header-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 328px;
+  height: 37px;
+  background: #fff;
+  padding-top: 18px;
+  padding-left: 31px;
+  padding-bottom: 18px;
+  padding-right: 31px;
+}
+.paragraph {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.backg-img1 {
+  background-image: url(page-1.jpg);
+  background-position: center;
+  height: 500px;
+  padding-top: 12px;
+  background-size: cover;
+}
