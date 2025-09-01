@@ -719,7 +719,7 @@
 
 /* */
 /* tablet-start width-768px */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .body-first {
     /* width: 100vw;
     display: flex;
@@ -903,21 +903,26 @@
 
 
 */
-@media (min-width: 1920px) {
+@media (min-width: 1024px) {
   .backg1 {
     background-image: url(./PC-backg1.jpg) !important;
     height: 692px;
     background-position: center;
     background-size: cover;
+    align-items: start;
   }
   .img1-text2 {
     margin-top: 20px;
     font-size: 24px;
     display: flex;
     flex-direction: row;
+    width: 405px;
+    height: 32px;
+    justify-content: center;
   }
   .img1-text1 {
     font-size: 52px;
+    margin-top: 16px;
   }
   .img1-text {
     width: 405px;
@@ -934,4 +939,64 @@
     background-position: center;
     background-size: cover;
   }
+  .img2-text {
+    margin-top: 55px;
+  }
+  .PC-hidden1 {
+    display: flex !important;
+    height: 692px;
+    width: 100%;
+    /* display: flex; */
+    align-items: end;
+    justify-content: center;
+    margin-top: 12px;
+  }
+  .PC-page1-texts {
+    display: flex;
+    flex-direction: column;
+    width: 405px;
+    height: 164px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 82px;
+  }
+  .PC-page1-text1 {
+    color: #000;
+    text-align: center;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 115.385% */
+    letter-spacing: -0.28px;
+  }
+  .PC-page1-text2 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+  }
+  .PC-page1-button {
+    width: 107px;
+    height: 36px;
+    border-radius: 999px;
+    background: #0071e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 16px;
+  }
+  .backg3 {
+    display: none;
+  }
+}
+
+.PC-hidden1 {
+  background-image: url(PC-backg3.jpg);
+  background-position: center;
+  background-size: cover;
+  display: none;
 }
