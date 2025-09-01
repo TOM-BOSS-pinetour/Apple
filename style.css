@@ -896,3 +896,42 @@
   font-weight: 400;
   line-height: 20px;
 }
+/* 
+
+
+
+
+
+*/
+@media (min-width: 1920px) {
+  .backg1 {
+    background-image: url(./PC-backg1.jpg) !important;
+    height: 692px;
+    background-position: center;
+    background-size: cover;
+  }
+  .img1-text2 {
+    margin-top: 20px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+  }
+  .img1-text1 {
+    font-size: 52px;
+  }
+  .img1-text {
+    width: 405px;
+    height: 108px;
+    margin-top: 55px;
+  }
+  .header-2 {
+    width: 675px;
+    height: 20px;
+  }
+  .backg2 {
+    background-image: url(PC-backg2.jpg);
+    height: 692px;
+    background-position: center;
+    background-size: cover;
+  }
+}
