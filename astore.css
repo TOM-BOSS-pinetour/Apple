@@ -132,14 +132,15 @@
 /* header5 Products */
 .products {
   display: flex;
-  padding: 0 140px;
+  /* margin-left: 140px; */
   align-items: center;
   gap: 12px;
   width: 1616px;
-  height: 146px;
-  /* width: 100%; */
-  /* overflow: scroll;
-  overflow: hidden; */
+  /* height: 146px; */
+
+  width: 90%;
+  overflow: scroll;
+  margin-left: 5%;
 }
 .product1 {
   display: flex;
@@ -161,4 +162,120 @@
   font-style: normal;
   font-weight: 700;
   line-height: 20px; /* 142.857% */
+}
+/* header5 Products End */
+/* header6 Scroll */
+.header6 {
+  width: 100%;
+  height: 558px;
+  margin-left: 5%;
+  margin-top: 60px;
+  gap: 24px;
+}
+.h6-texts {
+  display: flex;
+  width: 467px;
+  align-items: center;
+  gap: 4px;
+}
+.h6-text1 {
+  height: 34px;
+  width: 130.86px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  gap: 24px;
+}
+.h6-text2 {
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+.h6-prs {
+  gap: 20px;
+  height: 500px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  width: 100%;
+}
+.h6-pr1 {
+  background-image: url(./astore/h6/iphone16pro.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 480px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.h6-pr2 {
+  background-image: url(./astore/h6/watch.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 480px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.h6-pr3 {
+  background-image: url(./astore/h6/ipad-mini.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 480px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.h6-pr4 {
+  background-image: url(./astore/h6/macbook\ pro.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 480px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.h6-pr1-t1 {
+  height: 24px;
+  color: #b64400;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  margin-top: 31px;
+  margin-left: 30px;
+}
+.h6-pr1-t2 {
+  height: 32px;
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+  letter-spacing: 0.196px;
+  margin-left: 30px;
+}
+.h6-pr1-t3 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+  margin-top: 12px;
+  margin-left: 30px;
+}
+.watch-top {
+  margin-top: 54px;
 }
