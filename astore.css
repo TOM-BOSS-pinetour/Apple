@@ -634,6 +634,14 @@ body {
   font-weight: 700;
   line-height: 32px; /* 123.077% */
 }
+.h10-text2 {
+  width: 628px;
+  color: #6e6e73;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
 .sec10-3text {
   width: 259px;
   height: 41px;
