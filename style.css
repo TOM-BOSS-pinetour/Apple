@@ -705,6 +705,7 @@
   /* overflow-x: scroll; */
   overflow-y: hidden;
   margin-top: 12px;
+  scrollbar-width: none;
 }
 .backg10-header1 {
   display: flex;
@@ -892,6 +893,7 @@
     margin-top: 12px;
     overflow: hidden;
     overflow: scroll;
+    scrollbar-width: none;
   }
   .desktop-slides1 {
     display: none !important;
@@ -1198,6 +1200,8 @@
     overflow: scroll;
     margin-right: 12px;
     margin-left: 12px;
+    scrollbar-width: none;
+
     /* width: 4000000px; */
   }
   .d-slides1-img1 {
@@ -1271,6 +1275,7 @@
     margin-bottom: 58px;
   }
   .desktop-end-slides {
+    height: 240px;
     margin-top: 12px;
     gap: 16px;
     display: flex !important;
@@ -1278,6 +1283,7 @@
     overflow: scroll;
     margin-right: 12px;
     margin-left: 12px;
+    scrollbar-width: none;
   }
   .d-end-slides-wh {
     width: 417px;
@@ -1373,6 +1379,7 @@
   gap: 6px;
   overflow: hidden;
   overflow: scroll;
+  scrollbar-width: none;
 }
 
 .end-slides2 {
