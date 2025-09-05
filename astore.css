@@ -949,10 +949,10 @@ body {
   height: 96px;
   padding-left: 100px;
   margin-bottom: 100px;
-  padding-right: 5%;
+  /* padding-right: 5%; */
 }
 .quick-links {
-  width: 90%;
+  /* width: 90%; */
   color: #1d1d1f;
   font-family: inter;
   font-size: 26px;
